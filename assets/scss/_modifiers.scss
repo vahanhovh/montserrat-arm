@@ -62,14 +62,34 @@
   margin-bottom: 32px;
 }
 
+.-margin-v-24 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 .-margin-v-48 {
   margin-top: 48px;
   margin-bottom: 48px;
 }
 
+.-margin-v-64 {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
 .-margin-h-12 {
   margin-left: 12px;
   margin-right: 12px;
+}
+
+.-margin-h-24 {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.-margin-h-32 {
+  margin-left: 32px;
+  margin-right: 32px;
 }
 
 .-margin-h-56 {
@@ -84,4 +104,53 @@
 
 .-bg-grey {
   background-color: #F5F6F7;
+}
+
+.-hidden {
+  display: none;
+}
+
+.-thin {
+  font-family: 'Montserratarm-Thin', sans-serif;
+  font-weight: 100;
+}
+
+.-extra-light {
+  font-family: 'Montserratarm-ExtraLight', sans-serif;
+  font-weight: 200;
+}
+
+.-light {
+  font-family: 'Montserratarm-Light', sans-serif;
+  font-weight: 300;
+}
+
+.-regular {
+  font-family: 'Montserratarm-Regular', sans-serif;
+  font-weight: 400;
+}
+
+.-medium {
+  font-family: 'Montserratarm-Medium', sans-serif;
+  font-weight: 500;
+}
+
+.-semi-bold {
+  font-family: 'Montserratarm-SemiBold', sans-serif;
+  font-weight: 600;
+}
+
+.-bold {
+  font-family: 'Montserratarm-Bold', sans-serif;
+  font-weight: 700;
+}
+
+.-extra-bold {
+  font-family: 'Montserratarm-ExtraBold', sans-serif;
+  font-weight: 800;
+}
+
+.-black {
+  font-family: 'Montserratarm-Black', sans-serif;
+  font-weight: 900;
 }

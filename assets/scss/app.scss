@@ -7,14 +7,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
   font-size: 16px;
-  font-family: 'Montserrat_am3-Regular', sans-serif;
+  font-family: 'Montserratarm-Regular', sans-serif;
 }
 
 .main {
-  height: 707px;
+  height: 800px;
   padding-top: 183px;
-  background-image: linear-gradient(46deg, #D10085 0%, #DB0872 39%, #FF2929 100%);
+  background-image: url(../img/header.jpg);
+  background-size: cover;
   box-sizing: border-box;
+  .ligatures span {
+    font-size: 48px;
+    line-height: 56px;
+  }
 }
 
 .navigation {
@@ -34,8 +39,6 @@ body {
     text-transform: uppercase;
     font-size: 0.875em;
     line-height: 42px;
-    font-family: 'Montserrat_am3-Bold', sans-serif;
-    font-weight: 700;
     transition: color 0.3s ease;
     &:hover,
     &.active {
@@ -50,28 +53,31 @@ body {
 
 .description {
   font-size: 12px;
-  font-family: 'Montserrat_am3-Bold', sans-serif;
-  font-weight: 700;
   line-height: 15px;
+  padding: 0 124px;
 }
 
 .stats {
-  padding: 0 52px;
+  padding: 0 54px;
   span {
-    font-family: 'Montserrat_am3-Bold', sans-serif;
+    font-family: 'Montserratarm-Medium', sans-serif;
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.3px;
     margin: 2px 12px;
     text-align: left;
+    &.small-text {
+      font-size: 14px;
+    }
   }
 }
 
 .preview {
-  padding: 64px 0 48px 0;
+  padding: 32px 0 48px 0;
   p {
-    margin: 0 45px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 32px;
   }
   h2 {
     line-height: 78px;
@@ -268,14 +274,9 @@ body {
   }
 }
 
-.about {
+.license {
   padding: 68px 0 48px 0;
   color: #333;
-  .title {
-    font-size: 36px;
-    line-height: 44px;
-    margin-bottom: 24px;
-  }
   p {
     font-size: 18px;
     line-height: 29px;
@@ -283,6 +284,32 @@ body {
   }
   .example-1 {
     margin: 54px 0 39px 0;
+  }
+  .terms {
+    white-space: pre-line;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.download {
+  padding: 48px 0 64px 0;
+}
+
+.license, .download {
+  .title {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 24px;
+  }
+}
+
+.download-link {
+  display: inline-block;
+  color: #44BF75;
+  font-size: 16px;
+  &:hover {
+    text-decoration: underline;
   }
 }
 

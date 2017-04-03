@@ -1,7 +1,7 @@
 h1 {
   font-size: 72px;
   line-height: 88px;
-  font-family: 'Montserrat_am3-Bold', sans-serif;
+  font-family: 'Montserratarm-Bold', sans-serif;
   font-weight: 700;
   margin-top: 12px;
   margin-bottom: 12px;
@@ -11,7 +11,7 @@ h2 {
   font-size: 56px;
   line-height: 68px;
   letter-spacing: 0.1px;
-  font-family: 'Montserrat_am3-Bold', sans-serif;
+  font-family: 'Montserratarm-Bold', sans-serif;
   font-weight: 700;
 }
 
@@ -19,7 +19,7 @@ h3 {
   font-size: 32px;
   line-height: 39px;
   letter-spacing: 0.5px;
-  font-family: 'Montserrat_am3-Bold', sans-serif;
+  font-family: 'Montserratarm-Bold', sans-serif;
   font-weight: 700;
   margin-top: 21px;
   margin-bottom: 12px;
@@ -28,7 +28,7 @@ h3 {
 h4 {
   font-size: 24px;
   line-height: 29px;
-  font-family: 'Montserrat_am3-Bold', sans-serif;
+  font-family: 'Montserratarm-Bold', sans-serif;
   font-weight: 700;
   margin-top: 56px;
   margin-bottom: 14px;
@@ -49,7 +49,7 @@ p {
 }
 
 .bold {
-  font-family: 'Montserrat_am3-Bold', sans-serif;
+  font-family: 'Montserratarm-Bold', sans-serif;
   font-weight: 700;
 }
 
@@ -59,14 +59,14 @@ p {
 }
 
 .container {
-  width: 886px;
+  width: 1024px;
   margin: 0 auto;
 }
 
 .separator {
   width: 100%;
   &:not(.-dark) {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
   }
   &.-dark {
     background-color: #333;
@@ -79,7 +79,7 @@ p {
   }
 }
 
-.panel {
+.panel, .dropdown {
   height: 44px;
   box-sizing: border-box;
   padding: 12px;
@@ -98,5 +98,71 @@ p {
   }
   &.-grey {
     background-color: #F5F6F7;
+  }
+}
+
+.dropdown {
+  height: 44px;
+  box-sizing: border-box;
+  padding: 9px 12px;
+  background-color: #fff;
+  border-radius: 22px;
+  display: inline-block;
+  position: relative;
+  z-index: 9999;
+  width: 170px;
+  &.open {
+    &:before {
+      content: " ";
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 276px;
+      background: #fff;
+      left: 0px;
+      top: 0;
+      border-radius: 22px;
+      z-index: 9998;
+    }   
+    svg {
+      transform: rotate(0.5turn);
+    }
+  }
+  a {
+    display: block;
+    line-height: 28px;
+    margin: 0 12px;
+    color: $navigation;
+    transition: color 0.2s ease;
+    &:hover, &:focus,
+    &.active {
+      color: $primary;
+    }
+  }
+  .selected-font-weight {
+    position: relative;
+    z-index: 9999;
+    cursor: pointer;
+    &:hover {
+      a {
+        color: $primary;
+      }
+      svg path {
+        transition: all 0.3s ease;
+        fill: $primary;
+      }
+    }
+  }
+  &.-grey {
+    background-color: #F5F6F7;
+  }
+  .options {
+    position: relative;
+    z-index: 9999;
+  }
+  svg {
+    margin-top: 8px;
+    margin-right: 12px;
+    transition: all 0.3s ease;
   }
 }

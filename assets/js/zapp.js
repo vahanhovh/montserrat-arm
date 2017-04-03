@@ -25,6 +25,21 @@ $(document).on('click', '.navigation a', function(e){
   $('html, body').animate({scrollTop: pos}, 500, 'swing');
 })
 
+$(document).on('paste', '.font-test', function(e) {
+  e.preventDefault();
+  var text = '';
+  if (e.clipboardData || e.originalEvent.clipboardData) {
+    text = (e.originalEvent || e).clipboardData.getData('text/plain');
+  } else if (window.clipboardData) {
+    text = window.clipboardData.getData('Text');
+  }
+  if (document.queryCommandSupported('insertText')) {
+    document.execCommand('insertText', false, text);
+  } else {
+    document.execCommand('paste', false, text);
+  }
+});
+
 $(window).scroll(function(){
   scrollThenFix();
   scrollSpy();
@@ -39,7 +54,7 @@ function scrollThenFix() {
 }
 
 function scrollSpy() {
-  var sections = ['#preview', '#test-font', '#symbols', '#about'];
+  var sections = ['#preview', '#test-font', '#symbols', '#license', '#download'];
   var offsets = [];
   var offset, i;
   var scrollTop = $(window).scrollTop();
@@ -58,20 +73,27 @@ function scrollSpy() {
   if(scrollTop < offsets[number-1].offset-128) {
     $('.navigation a').removeClass('active');
   }
+  if(scrollTop > $(document).height() - $(window).height() - 128) {
+    $('.navigation a').removeClass('active');
+    $('.navigation a[href="#download"]').addClass('active');
+  }
 }
 
 var testFont = new Vue({
   el: '#test-font',
   data: {
-    fontBold: false,
+    open: false,
+    currentWeight: 'Regular',
+    fontWeight: '-regular',
     bg: 'test-grey'            
   },
   methods: {
     changeBg: function (value) {
       this.bg = value;
     },
-    changeBold: function (value) {
-      this.fontBold = value;
+    changeWeight: function (value, name) {
+      this.fontWeight = value;
+      this.currentWeight = name;
     }
   }
 })
@@ -79,7 +101,9 @@ var testFont = new Vue({
 var symbols = new Vue({
   el: '#symbols',
   data: {
-    fontBold: false,
+    open: false,
+    currentWeight: 'Regular',
+    fontWeight: '-regular',
     currentType: 'letters',
     currentIndex: 0,
     letters: letters,
@@ -95,8 +119,9 @@ var symbols = new Vue({
     changeIndex: function(index) {
       this.currentIndex = index;
     },
-    changeBold: function (value) {
-      this.fontBold = value;
+    changeWeight: function (value, name) {
+      this.fontWeight = value;
+      this.currentWeight = name;
     },
     changeType: function (type) {
       this.currentIndex = 0;

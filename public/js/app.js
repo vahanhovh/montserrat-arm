@@ -209,7 +209,7 @@ var letters = [{
 var ligatures = [
   {
     letter: 'մն',
-    name: 'men_nu',
+    name: 'men_now',
     code: 'uniFB10'
   },
   {
@@ -224,7 +224,12 @@ var ligatures = [
   },
   {
     letter: 'մխ',
-    name: 'men_xe',
+    name: 'men_xeh',
+    code: 'uniFB13'
+  },
+  {
+    letter: 'մէ',
+    name: 'men_eh',
     code: 'uniFB13'
   },
   {
@@ -233,199 +238,54 @@ var ligatures = [
     code: 'uniFB14'
   },
   {
-    letter: 'զյ',
-    name: 'za_yi',
-    code: 'uniFB15'
+    letter: 'ո՛ւ',
+    name: 'vo_emphasis_yiwn',
+    code: 'uniFB14'
   },
   {
-    letter: 'լյ',
-    name: 'lyun_yi',
-    code: 'uniFB16'
+    letter: 'ո՜ւ',
+    name: 'vo_exclam_yiwn',
+    code: 'uniFB14'
   },
   {
-    letter: 'ղյ',
-    name: 'ghat_yi',
-    code: 'uniFB17'
+    letter: 'ո՞ւ',
+    name: 'vo_question_yiwn',
+    code: 'uniFB14'
   },
   {
-    letter: 'շյ',
-    name: 'sha_yi',
-    code: 'uniFB18'
+    letter: 'ԵՎ',
+    name: 'Ech_Vew',
+    code: 'uniFB14'
   },
   {
-    letter: 'չյ',
-    name: 'cha_yi',
-    code: 'uniFB19'
+    letter: 'ԵՒ',
+    name: 'Ech_Yiwn',
+    code: 'uniFB14'
   },
   {
-    letter: 'ջյ',
-    name: 'ja_yi',
-    code: 'uniFB20'
-  },
-  {
-    letter: 'վյ',
-    name: 'vev_yi',
-    code: 'uniFB21'
-  },
-  {
-    letter: 'ու',
-    name: 'vo_vyun',
-    code: 'uniFB22'
-  },
-  {
-    letter: 'Մն',
-    name: 'Men_nu',
-    code: 'uniFB23'
-  },
-  {
-    letter: 'ՄՆ',
-    name: 'Men_Nu',
-    code: 'uniFB24'
-  },
-  {
-    letter: 'ՈՒ',
-    name: 'Vo_Vyun',
-    code: 'uniFB25'
-  },
-  {
-    letter: 'մ՝',
-    name: 'men_boot',
-    code: 'uniFB26'
-  },
-  {
-    letter: 'ճ՝',
-    name: 'tche_boot',
-    code: 'uniFB27'
-  },
-  {
-    letter: 'ժ՝',
-    name: 'je_boot',
-    code: 'uniFB28'
-  },
-  {
-    letter: 'ձ՝',
-    name: 'dza_boot',
-    code: 'uniFB29'
-  },
-  {
-    letter: 'վ՝',
-    name: 'vev_boot',
-    code: 'uniFB30'
-  },
-  {
-    letter: 'Ա՝',
-    name: 'Ayb_boot',
-    code: 'uniFB31'
-  },
-  {
-    letter: 'Բ՝',
-    name: 'Ben_boot',
-    code: 'uniFB32'
-  },
-  {
-    letter: 'Ժ՝',
-    name: 'Je_boot',
-    code: 'uniFB33'
-  },
-  {
-    letter: 'Ծ՝',
-    name: 'Tca_boot',
-    code: 'uniFB34'
-  },
-  {
-    letter: 'Ճ՝',
-    name: 'Tche_boot',
-    code: 'uniFB35'
-  },
-  {
-    letter: 'Մ՝',
-    name: 'Men_boot',
-    code: 'uniFB36'
-  },
-  {
-    letter: 'Չ՝',
-    name: 'Cha_boot',
-    code: 'uniFB37'
-  },
-  {
-    letter: 'Ս՝',
-    name: 'Se_boot',
-    code: 'uniFB38'
-  },
-  {
-    letter: 'Վ՝',
-    name: 'Vev_boot',
-    code: 'uniFB39'
-  },
-  {
-    letter: 'Ր՝',
-    name: 'Re_boot',
-    code: 'uniFB40'
-  },
-  {
-    letter: 'Ք՝',
-    name: 'Qe_boot',
-    code: 'uniFB41'
-  },
-  {
-    letter: 'Ա՛',
-    name: 'Ayb_shesht',
-    code: 'uniFB42'
-  },
-  {
-    letter: 'Ը՛',
-    name: 'Yt_shesht',
-    code: 'uniFB43'
-  },
-  {
-    letter: 'Ո՛',
-    name: 'Vo_shesht',
-    code: 'uniFB44'
-  },
-  {
-    letter: 'Ա՜',
-    name: 'Ayb_erk',
-    code: 'uniFB45'
-  },
-  {
-    letter: 'Ե՜',
-    name: 'Ech_erk',
-    code: 'uniFB46'
-  },
-  {
-    letter: 'Է՜',
-    name: 'Et_erk',
-    code: 'uniFB47'
-  },
-  {
-    letter: 'Ի՜',
-    name: 'Ini_erk',
-    code: 'uniFB48'
-  },
-  {
-    letter: 'Ա՞',
-    name: 'Ayb_harc',
-    code: 'uniFB49'
-  },
-  {
-    letter: 'Ը՞',
-    name: 'Yt_harc',
-    code: 'uniFB50'
-  },
-  {
-    letter: 'Ո՞',
-    name: 'Vo_harc',
-    code: 'uniFB51'
-  },
-  {
-    letter: 'Օ՞',
-    name: 'O_arm+harc',
-    code: 'uniFB52'
+    letter: 'ԹՀ',
+    name: 'To_Ho',
+    code: 'uniFB14'
   },
   {
     letter: 'ԹՅ',
-    name: 'To_YI',
-    code: 'FB53'
+    name: 'To_Yi',
+    code: 'uniFB14'
+  },
+  {
+    letter: 'ՄԾ',
+    name: 'Men_Ca',
+    code: 'uniFB14'
+  },
+  {
+    letter: 'ՄՆ',
+    name: 'Men_Now',
+    code: 'uniFB14'
+  },
+  {
+    letter: 'Մն',
+    name: 'Men_now',
+    code: 'uniFB14'
   }
 ]; 
 
@@ -513,6 +373,21 @@ $(document).on('click', '.navigation a', function(e){
   $('html, body').animate({scrollTop: pos}, 500, 'swing');
 })
 
+$(document).on('paste', '.font-test', function(e) {
+  e.preventDefault();
+  var text = '';
+  if (e.clipboardData || e.originalEvent.clipboardData) {
+    text = (e.originalEvent || e).clipboardData.getData('text/plain');
+  } else if (window.clipboardData) {
+    text = window.clipboardData.getData('Text');
+  }
+  if (document.queryCommandSupported('insertText')) {
+    document.execCommand('insertText', false, text);
+  } else {
+    document.execCommand('paste', false, text);
+  }
+});
+
 $(window).scroll(function(){
   scrollThenFix();
   scrollSpy();
@@ -527,7 +402,7 @@ function scrollThenFix() {
 }
 
 function scrollSpy() {
-  var sections = ['#preview', '#test-font', '#symbols', '#about'];
+  var sections = ['#preview', '#test-font', '#symbols', '#license', '#download'];
   var offsets = [];
   var offset, i;
   var scrollTop = $(window).scrollTop();
@@ -546,20 +421,27 @@ function scrollSpy() {
   if(scrollTop < offsets[number-1].offset-128) {
     $('.navigation a').removeClass('active');
   }
+  if(scrollTop > $(document).height() - $(window).height() - 128) {
+    $('.navigation a').removeClass('active');
+    $('.navigation a[href="#download"]').addClass('active');
+  }
 }
 
 var testFont = new Vue({
   el: '#test-font',
   data: {
-    fontBold: false,
+    open: false,
+    currentWeight: 'Regular',
+    fontWeight: '-regular',
     bg: 'test-grey'            
   },
   methods: {
     changeBg: function (value) {
       this.bg = value;
     },
-    changeBold: function (value) {
-      this.fontBold = value;
+    changeWeight: function (value, name) {
+      this.fontWeight = value;
+      this.currentWeight = name;
     }
   }
 })
@@ -567,7 +449,9 @@ var testFont = new Vue({
 var symbols = new Vue({
   el: '#symbols',
   data: {
-    fontBold: false,
+    open: false,
+    currentWeight: 'Regular',
+    fontWeight: '-regular',
     currentType: 'letters',
     currentIndex: 0,
     letters: letters,
@@ -583,8 +467,9 @@ var symbols = new Vue({
     changeIndex: function(index) {
       this.currentIndex = index;
     },
-    changeBold: function (value) {
-      this.fontBold = value;
+    changeWeight: function (value, name) {
+      this.fontWeight = value;
+      this.currentWeight = name;
     },
     changeType: function (type) {
       this.currentIndex = 0;
