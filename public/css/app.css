@@ -121,57 +121,57 @@
   font-weight: 900; }
 
 @font-face {
-  font-family: '../../fonts/Montserratarm-Black/Montserratarm-Black';
+  font-family: 'Montserratarm-Black';
   src: url("../../fonts/Montserratarm-Black/Montserratarm-Black.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserratarm-Black/Montserratarm-Black.otf") format("opentype"), url("../../fonts/Montserratarm-Black/Montserratarm-Black.woff") format("woff"), url("../../fonts/Montserratarm-Black/Montserratarm-Black.ttf") format("truetype"), url("../../fonts/Montserratarm-Black/Montserratarm-Black.svg#Montserratarm-Black") format("svg");
-  font-weight: normal;
+  font-weight: 900;
   font-style: normal; }
 
 @font-face {
-  font-family: '../../fonts/Montserratarm-Bold/Montserratarm-Bold';
+  font-family: 'Montserratarm-Bold';
   src: url("../../fonts/Montserratarm-Bold/Montserratarm-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserratarm-Bold/Montserratarm-Bold.otf") format("opentype"), url("../../fonts/Montserratarm-Bold/Montserratarm-Bold.woff") format("woff"), url("../../fonts/Montserratarm-Bold/Montserratarm-Bold.ttf") format("truetype"), url("../../fonts/Montserratarm-Bold/Montserratarm-Bold.svg#Montserratarm-Bold") format("svg");
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal; }
 
 @font-face {
-  font-family: '../../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold';
+  font-family: 'Montserratarm-ExtraBold';
   src: url("../../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.otf") format("opentype"), url("../../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.woff") format("woff"), url("../../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.ttf") format("truetype"), url("../../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.svg#Montserratarm-ExtraBold") format("svg");
-  font-weight: normal;
+  font-weight: 800;
   font-style: normal; }
 
 @font-face {
-  font-family: '../../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight';
+  font-family: 'Montserratarm-ExtraLight';
   src: url("../../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.otf") format("opentype"), url("../../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.woff") format("woff"), url("../../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.ttf") format("truetype"), url("../../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.svg#Montserratarm-ExtraLight") format("svg");
-  font-weight: normal;
+  font-weight: 200;
   font-style: normal; }
 
 @font-face {
-  font-family: '../../fonts/Montserratarm-Light/Montserratarm-Light';
+  font-family: 'Montserratarm-Light';
   src: url("../../fonts/Montserratarm-Light/Montserratarm-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserratarm-Light/Montserratarm-Light.otf") format("opentype"), url("../../fonts/Montserratarm-Light/Montserratarm-Light.woff") format("woff"), url("../../fonts/Montserratarm-Light/Montserratarm-Light.ttf") format("truetype"), url("../../fonts/Montserratarm-Light/Montserratarm-Light.svg#Montserratarm-Light") format("svg");
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal; }
 
 @font-face {
-  font-family: '../../fonts/Montserratarm-Medium/Montserratarm-Medium';
+  font-family: 'Montserratarm-Medium';
   src: url("../../fonts/Montserratarm-Medium/Montserratarm-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserratarm-Medium/Montserratarm-Medium.otf") format("opentype"), url("../../fonts/Montserratarm-Medium/Montserratarm-Medium.woff") format("woff"), url("../../fonts/Montserratarm-Medium/Montserratarm-Medium.ttf") format("truetype"), url("../../fonts/Montserratarm-Medium/Montserratarm-Medium.svg#Montserratarm-Medium") format("svg");
-  font-weight: normal;
+  font-weight: 600;
   font-style: normal; }
 
 @font-face {
-  font-family: '../../fonts/Montserratarm-Regular/Montserratarm-Regular';
-  src: url("../../fonts/Montserratarm-Regular/Montserratarm-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserratarm-Regular/Montserratarm-Regular.otf") format("opentype"), url("../../fonts/Montserratarm-Regular/Montserratarm-Regular.woff") format("woff"), url("../../fonts/Montserratarm-Regular/Montserratarm-Regular.ttf") format("truetype"), url("../../fonts/Montserratarm-Regular/Montserratarm-Regular.svg#Montserratarm-Regular") format("svg");
-  font-weight: normal;
+  font-family: 'Montserratarm-Regular';
+  src: url("../../fonts/Montserratarm-Regular/Montserratarm-Regular.eot"), url("../../fonts/Montserratarm-Regular/Montserratarm-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserratarm-Regular/Montserratarm-Regular.otf") format("opentype"), url("../../fonts/Montserratarm-Regular/Montserratarm-Regular.woff") format("woff"), url("../../fonts/Montserratarm-Regular/Montserratarm-Regular.ttf") format("truetype"), url("../../fonts/Montserratarm-Regular/Montserratarm-Regular.svg#Montserratarm-Regular") format("svg");
+  font-weight: 400;
   font-style: normal; }
 
 @font-face {
-  font-family: '../../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold';
+  font-family: 'Montserratarm-SemiBold';
   src: url("../../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.otf") format("opentype"), url("../../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.woff") format("woff"), url("../../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.ttf") format("truetype"), url("../../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.svg#Montserratarm-SemiBold") format("svg");
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal; }
 
 @font-face {
-  font-family: '../../fonts/Montserratarm-Thin/Montserratarm-Thin';
+  font-family: 'Montserratarm-Thin';
   src: url("../../fonts/Montserratarm-Thin/Montserratarm-Thin.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserratarm-Thin/Montserratarm-Thin.otf") format("opentype"), url("../../fonts/Montserratarm-Thin/Montserratarm-Thin.woff") format("woff"), url("../../fonts/Montserratarm-Thin/Montserratarm-Thin.ttf") format("truetype"), url("../../fonts/Montserratarm-Thin/Montserratarm-Thin.svg#Montserratarm-Thin") format("svg");
-  font-weight: normal;
+  font-weight: 100;
   font-style: normal; }
 
 h1 {
@@ -333,7 +333,9 @@ body {
   padding: 0 32px;
   box-sizing: border-box;
   top: 72px;
-  z-index: 9999; }
+  z-index: 9999;
+  left: 25%;
+  transform: translateY(-50%); }
   .navigation .nav-item {
     color: #505050;
     text-decoration: none;
